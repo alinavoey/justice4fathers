@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {
-  BrowserRouter,
+  // BrowserRouter,
   Routes,
   Route,
   Link
@@ -14,7 +14,8 @@ import Resources from './Resources';
 
 function Header() {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
+    <>
     <Navbar sticky="top" collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
         <Navbar.Brand as={Link} to='/'>J 4 F</Navbar.Brand>
@@ -37,7 +38,8 @@ function Header() {
         <Route path='/donate' element={<Donate/>} />
       </Routes>
     </div>
-    </BrowserRouter>
+    </>
+    // </BrowserRouter>
   );
 }
 
