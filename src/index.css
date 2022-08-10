@@ -41,29 +41,23 @@ code {
   font-size: 0.85rem;
 }
 
-/* .home-content{
-  padding-left: 5%;
-  padding-right: 5%;
-} */
-
 .mission-statement{
   margin: 5% 0;
   color: whitesmoke;
   background-color: #414C66;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   text-align: center;
   font-weight: 300;
   padding: 10%;
   width: 100%;
 }
 
-
 .home-content hr {
   margin: 3% 15%;
 }
 
 .home-heading{
-  font-size: 1.5rem;
+  font-size: 1.55rem;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -88,7 +82,7 @@ code {
 
 .home-offer{
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   letter-spacing: 2px;
 }
 
@@ -120,7 +114,7 @@ code {
   }
 
   .home-heading{
-    font-size: 1.8rem;
+    font-size: 3.25rem;
   }
 
   .home-content hr {
@@ -134,8 +128,8 @@ code {
   }
 
   .mission-statement{
-    font-size: 1.1rem;
-    padding: 5% 25%;
+    font-size: 1.15rem;
+    padding: 6% 20%;
   }
   
   .home-offer{
@@ -155,15 +149,35 @@ code {
     color: #C55656;
     font-weight: 700;
   }
+
+  .home-icons{
+    height: 130px;
+    width: inherit;
+    margin: 0 20px;
+  }
+
+  .icon p{
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 900px) {
-  /* .hero-img{
-    max-height: 75vh;
-  } */
+  .line-break{
+    border-bottom: 8px solid #C55656;
+  }
+
+  .mission-statement{
+    font-size: 1.3rem;
+    padding: 7% 25%;
+  }
 
   .home-heading{
-    font-size: 3.25rem;
+    font-size: 5rem;
+  }
+  .home-icons{
+    height: 180px;
+    width: inherit;
+    margin: 0 20px;
   }
 }
 
@@ -185,23 +199,20 @@ code {
 }
 
 .about-content h1{
-  /* padding-top: 10px; */
-  padding-top: 5%;
+  padding-top: 3%;
   text-transform: uppercase;
   letter-spacing: 4px;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 .about-content p{
   margin-right: 10%;
-  font-size: 12px;
+  font-size: 0.85rem;
 }
 
 .about-img{
   padding-left: 2%;
-  /* margin-right: -60px;
-  margin-top: -30px; */
   margin-right: -20%;
   margin-top: -10%;
   width: 75%;
@@ -227,27 +238,30 @@ code {
 .about-journey{
   background-color: #414C66;
   color: whitesmoke;
-  /* padding: 20px 40px; */
   padding: 5% 10%;
   font-weight: lighter;
-  font-size: 12px;
+  font-size: 0.85rem;
 }
 
 @media screen and (min-width: 600px) {
   .about-img{
-    width: 45%;
+    width: 65%;
     margin-top: -8%;
-    margin-right: -8%;
+    margin-right: -12%;
   }
 
-.about-content h1{
-  /* padding-top: 10px; */
-  padding-top: 5%;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-size: 1.25rem;
-  font-weight: 700;
-}
+  .about-content h1{
+    padding-top: 2%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.45rem;
+    font-weight: 700;
+  }
+  
+  .about-content p{
+    margin-right: 10%;
+    font-size: 1rem;
+  }
   .about-content{
     margin-left: 15%;
     margin-right: 15%;
@@ -258,9 +272,17 @@ code {
   .about-journey{
     padding: 2% 15%;
   }
+  .about-journey p {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 990px) {
+  .about-img{
+    width: 45%;
+    margin-top: -6%;
+    margin-right: -8%;
+  }
   .about-content{
     margin-left: 20%;
     margin-right: 20%;
@@ -269,7 +291,13 @@ code {
     margin: 2% 45%;
   }
   .about-journey{
-    padding: 5% 20%;
+    padding: 2% 20%;
+  }
+  .about-journey-container h2{
+    font-size: 3rem;
+  }
+  .line-break-about{
+    border-width: 6px;
   }
 }
 
@@ -315,7 +343,7 @@ code {
 }
 
 .resource-box p{
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
 .first-btn, .second-btn, .third-btn{
@@ -324,7 +352,7 @@ code {
   border-radius: 7px;
   padding: 5px 35px;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   transition: 0.3s;
 }
 
@@ -337,18 +365,46 @@ code {
   border: 2px solid white;
 }
 
+@media screen and (min-width: 600px){
+  .page-title{
+    font-weight: 500;
+    color: #484848;
+    font-size: 1.5rem;
+    margin-top: 2%;
+  }
+  .resource-box h3{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  .resource-box p{
+    font-size: 1rem;
+  }
+}
+
 @media screen and (min-width: 900px) {
   .resource-box{
     margin: 2% 20%;
-    padding: 6%;
     padding: 3%;
   }
 
   .page-title{
-    font-weight: 400;
-    font-size: 1.55rem;
+    font-weight: 500;
+    color: #484848;
+    font-size: 2rem;
     margin-top: 2%;
   }
+  .resource-box h3{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  .resource-box p{
+    font-size: 1rem;
+  }
+  
 }
 
 /* resource section end */
@@ -385,7 +441,7 @@ code {
 }
 
 .donate-content p{
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
 .donate-btn{
@@ -399,7 +455,7 @@ code {
   border-radius: 7px;
   padding: 5px 35px;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: white;
   font-weight: 600;
   letter-spacing: 4px;
@@ -421,26 +477,31 @@ code {
     margin: 15% 0;
     padding: 5% 25%;
   }
+  .donate-title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 1.85rem;
+    margin-bottom: 5%;
+  }
+  
+  .donate-content p{
+    font-size: 1rem;
+  }
+  .donate-content button{
+    background-color: #C55656;
+    border: none;
+    border-radius: 7px;
+    padding: 5px 35px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 4px;
+    transition: 0.3s;
+    border: 2px solid #C55656;
+  }
 }
-/* 
-@media screen and (min-width: 900px){
-  .donate-page{
-    margin: 0 25%;
-  }
-  .donate-content{
-    margin-right: 25%;
-    margin-top: 12%;
-    padding: 10% 5%;
-  }
-} 
-
-@media screen and (min-width: 1300px) {
-  .donate-content{
-    width: 640px;
-    height: 350px;
-    padding: 5%;
-  }
-} */
 
 button.navbar-toggler{
   border: none;
@@ -451,6 +512,7 @@ button.navbar-toggler:focus{
 }
 
 a.navbar-brand, a.navbar-brand:focus, a.navbar-brand:hover{
+  border-bottom: 4px solid rgba(var(--bs-light-rgb),var(--bs-bg-opacity));
   font-weight: 700;
   background-clip: text;
 	-webkit-background-clip: text;
@@ -465,6 +527,25 @@ a.nav-link{
   margin-right: 0.5rem;
 }
 
-a.nav-link:hover{
+a.nav-link:hover, a.nav-link:focus{
   border-bottom: 4px solid #C55656;
+}
+
+@media screen and (min-width: 992px){
+  a.navbar-brand, a.navbar-brand:focus, a.navbar-brand:hover{
+    font-size: 1.8rem;
+    font-weight: 700;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('../public/text-bg-dk.jpg');
+    background-position: right center;
+    letter-spacing: 4px;
+  }
+  
+  a.nav-link{
+    font-size: 1.15rem;
+    border-bottom: 4px solid rgba(var(--bs-light-rgb),var(--bs-bg-opacity));
+    margin-right: 0.5rem;
+  }
 }

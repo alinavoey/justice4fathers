@@ -4,9 +4,9 @@
 
 This site was created for an upcomming veteran owned non-profit organization, Justice 4 Fathers. The mission is to bring awareness about the family court system and how it has impacted the lives of fathers in order to support individuals who are facing adversity with child custody.
 
-<!-- ## Important Links
+## Important Links
 
-[View Deployed App](https://alinavoey.github.io/coffee-client/) -->
+[View Deployed App](https://alinavoey.github.io/justice4fathers/)
 
 ## Planning
 
