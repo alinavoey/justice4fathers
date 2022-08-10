@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/justice4fathers/static/css/main.712f966f.css",
+    "main.css": "/justice4fathers/static/css/main.8d031371.css",
     "main.js": "/justice4fathers/static/js/main.55fcd581.js",
     "static/media/usa-flag.jpg": "/justice4fathers/static/media/usa-flag.06a3d6814fec09f6eeaf.jpg",
     "static/media/text-bg-dk.jpg": "/justice4fathers/static/media/text-bg-dk.42c3388ec81232c65baa.jpg",
     "index.html": "/justice4fathers/index.html",
-    "main.712f966f.css.map": "/justice4fathers/static/css/main.712f966f.css.map",
+    "main.8d031371.css.map": "/justice4fathers/static/css/main.8d031371.css.map",
     "main.55fcd581.js.map": "/justice4fathers/static/js/main.55fcd581.js.map"
   },
   "entrypoints": [
-    "static/css/main.712f966f.css",
+    "static/css/main.8d031371.css",
     "static/js/main.55fcd581.js"
   ]
 }
